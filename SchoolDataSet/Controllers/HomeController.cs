@@ -46,6 +46,7 @@ namespace SchoolDataSet.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+            string varTest_ = "test only";
 
             return View();
         }
